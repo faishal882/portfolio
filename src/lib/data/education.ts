@@ -23,7 +23,7 @@ export const items: Array<Education> = [
     organization: 'Aligarh Muslim University',
     period: { from: new Date(2019, 0, 1), to: new Date(2021, 0, 1) },
     shortDescription: '',
-    slug: 'https://amu.ac.in/',
+    slug: 'https://amu.ac.in',
     subjects: []
   }
 ];
