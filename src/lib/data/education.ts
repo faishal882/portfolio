@@ -2,30 +2,28 @@ import Assets from './assets';
 import type { Education } from '../types';
 
 export const items: Array<Education> = [
-	{
-		degree: 'Bachelor degree of Computer Science',
-		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
-		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
-		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
-	},
-	{
-		degree: 'PhD of Computer Science',
-		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
-		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
-		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
-	}
+  {
+    degree: 'Bachelor of Technology in Mechanical Engineering',
+    description: '',
+    location: 'India',
+    logo: Assets.University,
+    name: '',
+    organization: 'Aligarh Muslim University',
+    period: { from: new Date(2022, 0, 1), to: new Date(2026, 0, 1) },
+    shortDescription: '',
+    slug: 'https://amu.ac.in/colleges/zakir-husain-college-of-engineering-and-technology',
+  },
+  {
+    degree: '+2 Senior Secondary High School',
+    description: '',
+    location: 'India',
+    logo: Assets.University,
+    name: '',
+    organization: 'Aligarh Muslim University',
+    period: { from: new Date(2019, 0, 1), to: new Date(2021, 0, 1) },
+    shortDescription: '',
+    slug: 'dummy-education-item-2',
+  }
 ];
 
 export const title = 'Education';
