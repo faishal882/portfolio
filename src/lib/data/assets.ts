@@ -71,7 +71,8 @@ const Assets = {
   Unocss: a('unocss.svg'),
   Ruvy: a('ruvy.svg'),
   Postcss: a('postcss.svg'),
-  University: a('university.svg')
+  University: a('university.svg'),
+  Fiverr: a('fiverr.svg')
 };
 
 export default Assets;
