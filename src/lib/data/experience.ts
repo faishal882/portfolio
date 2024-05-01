@@ -6,7 +6,7 @@ export const items: Array<Experience> = [
   {
     slug: 'open-sourcer',
     company: 'Self-employed',
-    description: 'Contributing to awesome tools build for developers.',
+    description: 'Contributed to Django and Wagtail and trying to contribute more ...',
     contract: ContractType.SelfEmployed,
     type: 'Software Development',
     location: 'Home',
@@ -21,7 +21,12 @@ export const items: Array<Experience> = [
   {
     slug: 'software-freelance',
     company: 'Self-employed',
-    description: 'Working with great clients.',
+    description: `<ul> <li>Strengthened the security and optimized the response time of the Enlightenment.AI system by
+                    implementing JWT- token authorization and enhancing data filtering in the GraphQL API.</li>
+                  <li>Streamlined the hiring web application at UXLIVINGLAB by integrating the Ant design UI in
+                    ReactJS, constructing RESTful APIs, and seamlessly integrating them with the frontend.</li>
+                  <li>Expanded the global reach of the NextJS application by integrating i18next and enabling
+                    translation capabilities for five languages, enhancing its accessibility and user experience</li></ul>`,
     contract: ContractType.Freelance,
     type: 'Software Development',
     location: 'Home',

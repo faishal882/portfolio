@@ -130,6 +130,14 @@ export const items = [
     logo: Assets.PostgreSQL,
     name: 'PostgreSQL',
     category: 'db'
+  }),
+  defineSkill({
+    slug: 'flask',
+    color: 'white',
+    description: '',
+    logo: Assets.Flask,
+    name: 'Flask',
+    category: 'framework'
   })
 ] as const;
 
