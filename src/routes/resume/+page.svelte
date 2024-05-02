@@ -8,9 +8,10 @@
 <CommonPage {title}>
 	<div class="resume">
 		{#if data}
-			<a href={data} download>
-				<Chip size={'1.25em'}>Download</Chip>
-			</a>
+			<!-- <a href={data} download> -->
+			<!-- 	<Chip size={'1.25em'}>Download</Chip> -->
+			<!-- </a> -->
+			<object aria-label="pdf" class="pdf" {data} width="900" height="600" />
 		{:else}
 			<Chip>Ooops! no CV at the moment.</Chip>
 		{/if}

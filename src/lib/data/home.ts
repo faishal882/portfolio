@@ -12,10 +12,10 @@ export const description =
 
 export const links: Array<{ platform: Platform; link: string }> = [
   { platform: Platform.GitHub, link: 'https://github.com/faishal882' },
-  {
-    platform: Platform.Linkedin,
-    link: 'www.linkedin.com/in/faishal-manzar'
-  },
+  // {
+  //   platform: Platform.Linkedin,
+  //   link: 'www.linkedin.com/in/faishal-manzar'
+  // },
   {
     platform: Platform.Twitter,
     link: 'https://twitter.com/faishalmanzar'
